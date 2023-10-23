@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 20px;
+    background-color: red;
+}
+header h1{
+    margin-left: 5%;
+    color: bisque;
+}
+header nav ul li {
+    display: inline;
+    position: relative;
+    margin: 7px;
+    bottom: 25px;
+}
+header nav{
+    text-align: right;
+    margin: 0 5% 0 0;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: beige;
+}
+header nav ul li a:hover{
+    font-weight: 700;
+}
+header nav ul li a.cbtn{
+    background-color: red;
+    color: beige;
+    padding: 15px 22px;
+    border-radius: 30px;
+}
+header nav ul li a.cbtn:hover{
+    background: red;
+}
+section{
+    width: 100%;
+    height: 562px;
+    background-image: url(tgym1.jpg);
+    background-size: cover;
+    position: relative;
+}
+section div.img{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+}
+section div.pat{
+    position: absolute;
+    text-align: center;
+    top:200px;
+    left:28%;
+    color: beige;
+}
+section p{
+    font-weight: 700;
+}
+section h1{
+    font-size: 80px;
+}
+section a:hover{
+    font-weight: 700;
+    background-color: red;
+}
+section a{
+    text-decoration: none;
+    background-color: red;
+    color: beige;
+    padding: 15px 32px;
+    border-radius: 30px;
+}
